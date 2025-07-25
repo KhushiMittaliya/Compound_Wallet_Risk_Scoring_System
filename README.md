@@ -13,8 +13,7 @@ The scoring logic is inspired by credit risk modeling, adapted for decentralized
   
 - **Feature Engineering**  
   Extracted key DeFi lending features (Borrow events, Repay events, Liquidations).  
-  > *Note: Due to free API limitations, some features were simulated deterministically for demonstration.*
-
+  
 - **Risk Scoring Model**  
   Assigned scores between **0–1000** using a simple formula:
 score = 1000
